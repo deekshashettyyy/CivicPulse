@@ -145,4 +145,4 @@ Prevents database bloating by calculating spatial bounds using the user's geohas
 Continuously analyzes ward-level data within the administrative dashboard and generates predictive insights, identifying whether civic issues such as potholes, garbage accumulation, or water leakages are expected to increase or decrease over the next 14 days based on recent reporting patterns.
 
 ## License
-This project is open-source and available under the strictly permissive MIT License.
+This project is free software and available under the **GNU General Public License v3.0** (GPL-3.0). See the [LICENSE](LICENSE) file for more details.
