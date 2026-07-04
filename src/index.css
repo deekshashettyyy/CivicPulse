@@ -14,10 +14,19 @@
     --accent-success: #0e9f7d;
     --accent-warning: #d97706; /* Darkened from f5a623 */
     --accent-danger: #dc2626; /* Darkened from ef4444 */
+    --nav-glass-bg: rgba(255, 255, 255, 0.45);      
+    --nav-glass-border: rgba(24, 30, 21, 0.06);
+    --nav-glass-highlight: rgba(255, 255, 255, 0.6); 
   }
   body {
     background-color: var(--bg-page);
+    background-image:
+      radial-gradient(circle at 12% -10%, rgba(14, 159, 125, 0.07), transparent 40%),
+      radial-gradient(circle at 90% 0%, rgba(154, 76, 245, 0.05), transparent 35%);
+    background-attachment: fixed;
     color: var(--text-primary);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
